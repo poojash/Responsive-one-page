@@ -1,0 +1,184 @@
+/* line 1, ../sass/_promoslider.scss */
+.promo {
+  margin-top: 90px;
+  margin-bottom: 130px;
+}
+
+/* line 5, ../sass/_promoslider.scss */
+.wrapper {
+  height: 130px;
+  overflow: hidden;
+}
+
+/* line 11, ../sass/_promoslider.scss */
+.ticker-list {
+  width: 600px;
+  padding: 0px;
+  list-style: none;
+  -webkit-animation: promoslide 10s ease-in-out infinite;
+  -moz-animation: promoslide 10s ease-in-out infinite;
+  -ms-animation: promoslide 10s ease-in-out infinite;
+  -o-animation: promoslide 10s ease-in-out infinite;
+  animation: promoslide 10s ease-in-out infinite;
+}
+/* line 15, ../sass/_promoslider.scss */
+.ticker-list li {
+  line-height: 130px;
+}
+/* line 18, ../sass/_promoslider.scss */
+.ticker-list a {
+  color: #121212;
+  text-decoration: none;
+  font-size: 130px;
+  text-transform: uppercase;
+  text-shadow: 2px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes "promoslide" {
+  /* line 34, ../sass/_promoslider.scss */
+  0% {
+    margin-top: 0;
+  }
+
+  /* line 37, ../sass/_promoslider.scss */
+  25% {
+    margin-top: -180px;
+  }
+
+  /* line 40, ../sass/_promoslider.scss */
+  50% {
+    margin-top: -340px;
+  }
+
+  /* line 43, ../sass/_promoslider.scss */
+  75% {
+    margin-top: -510px;
+  }
+
+  /* line 46, ../sass/_promoslider.scss */
+  100% {
+    margin-top: 0;
+  }
+}
+
+@-moz-keyframes promoslide {
+  /* line 53, ../sass/_promoslider.scss */
+  0% {
+    margin-top: 0;
+  }
+
+  /* line 56, ../sass/_promoslider.scss */
+  25% {
+    margin-top: -180px;
+  }
+
+  /* line 59, ../sass/_promoslider.scss */
+  50% {
+    margin-top: -340px;
+  }
+
+  /* line 62, ../sass/_promoslider.scss */
+  75% {
+    margin-top: -510px;
+  }
+
+  /* line 65, ../sass/_promoslider.scss */
+  100% {
+    margin-top: 0;
+  }
+}
+
+@-webkit-keyframes "promoslide" {
+  /* line 72, ../sass/_promoslider.scss */
+  0% {
+    margin-top: 0;
+  }
+
+  /* line 75, ../sass/_promoslider.scss */
+  25% {
+    margin-top: -180px;
+  }
+
+  /* line 78, ../sass/_promoslider.scss */
+  50% {
+    margin-top: -340px;
+  }
+
+  /* line 81, ../sass/_promoslider.scss */
+  75% {
+    margin-top: -510px;
+  }
+
+  /* line 84, ../sass/_promoslider.scss */
+  100% {
+    margin-top: 0;
+  }
+}
+
+@-ms-keyframes "promoslide" {
+  /* line 91, ../sass/_promoslider.scss */
+  0% {
+    margin-top: 0;
+  }
+
+  /* line 94, ../sass/_promoslider.scss */
+  25% {
+    margin-top: -180px;
+  }
+
+  /* line 97, ../sass/_promoslider.scss */
+  50% {
+    margin-top: -340px;
+  }
+
+  /* line 100, ../sass/_promoslider.scss */
+  75% {
+    margin-top: -510px;
+  }
+
+  /* line 103, ../sass/_promoslider.scss */
+  100% {
+    margin-top: 0;
+  }
+}
+
+@-o-keyframes "promoslide" {
+  /* line 110, ../sass/_promoslider.scss */
+  0% {
+    margin-top: 0;
+  }
+
+  /* line 113, ../sass/_promoslider.scss */
+  25% {
+    margin-top: -180px;
+  }
+
+  /* line 116, ../sass/_promoslider.scss */
+  50% {
+    margin-top: -340px;
+  }
+
+  /* line 119, ../sass/_promoslider.scss */
+  75% {
+    margin-top: -510px;
+  }
+
+  /* line 122, ../sass/_promoslider.scss */
+  100% {
+    margin-top: 0;
+  }
+}
+
+/* line 5, ../sass/screen.scss */
+nav li h1 {
+  color: white;
+}
+
+/* line 12, ../sass/screen.scss */
+.img {
+  text-align: center;
+}
+/* line 14, ../sass/screen.scss */
+.img a {
+  margin-top: 10px;
+}
