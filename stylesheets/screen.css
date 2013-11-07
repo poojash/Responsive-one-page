@@ -1,7 +1,7 @@
 /* line 1, ../sass/_promoslider.scss */
 .promo {
   margin-top: 90px;
-  margin-bottom: 130px;
+  margin-bottom: 180px;
 }
 
 /* line 5, ../sass/_promoslider.scss */
@@ -169,16 +169,21 @@
   }
 }
 
-/* line 5, ../sass/screen.scss */
+/* line 3, ../sass/screen.scss */
+h1 {
+  text-decoration: underline;
+}
+
+/* line 8, ../sass/screen.scss */
 nav li h1 {
   color: white;
 }
 
-/* line 12, ../sass/screen.scss */
+/* line 15, ../sass/screen.scss */
 .img {
   text-align: center;
 }
-/* line 14, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 .img a {
   margin-top: 10px;
 }
